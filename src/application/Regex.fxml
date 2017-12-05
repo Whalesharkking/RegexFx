@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RegexTestHarness">
+   <children>
+      <Text fill="#00ff66" layoutX="272.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Regex" wrappingWidth="55.13671785593033">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <TextArea fx:id="textAreaResult" layoutX="5.0" layoutY="359.0" prefHeight="111.0" prefWidth="590.0" />
+      <TextField fx:id="textFieldRegex" layoutX="5.0" layoutY="44.0" prefHeight="25.0" prefWidth="590.0" />
+      <Text fill="#0200ff" layoutX="272.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="String" wrappingWidth="55.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="textFieldString" layoutX="5.0" layoutY="120.0" prefHeight="25.0" prefWidth="590.0" />
+      <Text fill="RED" layoutX="272.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Result" wrappingWidth="55.13671785593033">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="button" layoutX="4.0" layoutY="264.0" mnemonicParsing="false" onAction="#regexCalc" prefHeight="25.0" prefWidth="590.0" text="Check" textFill="#9a2bab">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Text fill="#ff0074" layoutX="278.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flag" wrappingWidth="40.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="textFieldFlag" layoutX="5.0" layoutY="198.0" prefHeight="25.0" prefWidth="590.0" />
+   </children>
+</Pane>
